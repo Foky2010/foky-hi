@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.body{
+    background-color:red;
+    height: 50000px;
+}
+nav{
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+nav.row.imfg{
+    width: 80%;
+}
+nav.row.menu{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+nav.row.menu ul{
+    width: 80%;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+nav .row.menu ul li{
+text-decoration: none;
+color: grey;
+text-transform: capitalize;
+font-weight: bold;
+}
